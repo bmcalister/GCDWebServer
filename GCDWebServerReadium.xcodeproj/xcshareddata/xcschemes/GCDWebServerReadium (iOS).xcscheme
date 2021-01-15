@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEE28CEE1AE0051F00F4023C"
                BuildableName = "GCDWebServer.framework"
-               BlueprintName = "GCDWebServer (iOS)"
-               ReferencedContainer = "container:GCDWebServer.xcodeproj">
+               BlueprintName = "GCDWebServerReadium (iOS)"
+               ReferencedContainer = "container:GCDWebServerReadium.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,8 +32,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEE28CEE1AE0051F00F4023C"
             BuildableName = "GCDWebServer.framework"
-            BlueprintName = "GCDWebServer (iOS)"
-            ReferencedContainer = "container:GCDWebServer.xcodeproj">
+            BlueprintName = "GCDWebServerReadium (iOS)"
+            ReferencedContainer = "container:GCDWebServerReadium.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEE28CEE1AE0051F00F4023C"
             BuildableName = "GCDWebServer.framework"
-            BlueprintName = "GCDWebServer (iOS)"
-            ReferencedContainer = "container:GCDWebServer.xcodeproj">
+            BlueprintName = "GCDWebServerReadium (iOS)"
+            ReferencedContainer = "container:GCDWebServerReadium.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -70,8 +70,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEE28CEE1AE0051F00F4023C"
             BuildableName = "GCDWebServer.framework"
-            BlueprintName = "GCDWebServer (iOS)"
-            ReferencedContainer = "container:GCDWebServer.xcodeproj">
+            BlueprintName = "GCDWebServerReadium (iOS)"
+            ReferencedContainer = "container:GCDWebServerReadium.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -6,14 +6,14 @@
 # DELETE THIS SECTION BEFORE PROCEEDING!
 
 Pod::Spec.new do |s|
-  s.name     = 'GCDWebServer'
-  s.version  = '3.6.2'
+  s.name     = 'GCDWebServerReadium'
+  s.version  = '4.0.1'
   s.author   =  { 'Pierre-Olivier Latour' => 'info@pol-online.net' }
   s.license  = { :type => 'BSD', :file => 'LICENSE' }
-  s.homepage = 'https://github.com/edrlab/GCDWebServer'
+  s.homepage = 'https://github.com/bmcalister/GCDWebServer'
   s.summary  = 'Lightweight GCD based HTTP server for OS X & iOS (includes web based uploader & WebDAV server)'
   
-  s.source   = { :git => 'https://github.com/edrlab/GCDWebServer.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/bmcalister/GCDWebServer.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
     cs.ios.library = 'z'
     cs.ios.frameworks = 'MobileCoreServices', 'CFNetwork'
   end
-  
+
   s.subspec 'WebDAV' do |cs|
-    cs.dependency 'GCDWebServer/Core'
+    cs.dependency 'GCDWebServerReadium/Core'
     cs.source_files = 'GCDWebDAVServer/*.{h,m}'
     cs.requires_arc = true
     cs.ios.library = 'xml2'
@@ -35,9 +35,10 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'WebUploader' do |cs|
-    cs.dependency 'GCDWebServer/Core'
+    cs.dependency 'GCDWebServerReadium/Core'
     cs.source_files = 'GCDWebUploader/*.{h,m}'
     cs.requires_arc = true
     cs.resource = "GCDWebUploader/GCDWebUploader.bundle"
   end 
+
 end
